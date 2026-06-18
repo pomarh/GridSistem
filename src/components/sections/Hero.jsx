@@ -2,7 +2,7 @@ import Container from "../ui/Container";
 
 function Hero() {
     return (
-        <section className="py-20 lg:py-32">
+        <section className="py-20 lg:py-32 bg-gradient-to-br from-emerald-500 to-teal-700 pt-5 md:pt-8">
             <Container>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Contenido */}
@@ -16,16 +16,16 @@ function Hero() {
                             <span className="text-emerald-500"> Landing Pages</span>, Sistemas Web y Ecommerce.
                         </h1>
 
-                        <p className="mt-6 text-lg text-slate-600 leading-relaxed">
+                        <p className="mt-6 text-lg  leading-relaxed">
                             Creamos soluciones digitales modernas, rápidas y escalables para ayudar a tu negocio a crecer y vender más.
                         </p>
 
                         <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                            <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-4 rounded-xl font-medium transition">
+                            <button className="border border-white bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-4 rounded-xl font-medium transition">
                                 Solicitar Cotización
                             </button>
 
-                            <button className="border border-slate-300 hover:border-emerald-500 hover:text-emerald-500 px-6 py-4 rounded-xl font-medium transition">
+                            <button className="bg-white border border-slate-300 hover:border-emerald-500 hover:text-emerald-500 px-6 py-4 rounded-xl font-medium transition">
                                 Ver Servicios
                             </button>
                         </div>
@@ -33,7 +33,7 @@ function Hero() {
 
                     {/* Mockup */}
                     <div className="flex justify-center">
-                        <div className="w-full max-w-lg bg-white rounded-3xl shadow-xl border border-slate-200 p-6">
+                        <div className="w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-emerald-200  shadow-emerald-100/40 p-6">
                             <div className="flex gap-2 mb-6">
                                 <div className="w-3 h-3 rounded-full bg-red-400"></div>
                                 <div className="w-3 h-3 rounded-full bg-yellow-400"></div>

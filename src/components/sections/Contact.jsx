@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 function Contact() {
     return (
-        <Section id="contact">
+        <Section id="contact" className="bg-gray-200">
             <Container>
                 <SectionTitle
                     badge="Contacto"

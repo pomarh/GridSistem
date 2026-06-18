@@ -6,7 +6,7 @@ import SectionTitle from "../ui/SectionTitle";
 function Services() {
     return (
         <>
-            <Section id="services">
+            <Section id="services" className="bg-gray-200">
                 <Container>
                     <SectionTitle
                         badge="Nuestros Servicios"

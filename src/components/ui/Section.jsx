@@ -1,9 +1,11 @@
 import React from "react";
 
-function Section({ children, className = "" }) {
+function Section({ children, className = "", id }) {
     return (
         <>
-            <section className={`py-24 ${className}`}>{children}</section>
+            <section id={id} className={`py-24 ${className}`}>
+                {children}
+            </section>
         </>
     );
 }
