@@ -13,7 +13,7 @@ function Hero() {
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-slate-900">
                             Desarrollamos
-                            <span className="text-emerald-500"> Landing Pages</span>, Sistemas Web y Ecommerce.
+                            <span className="text-white"> Landing Pages</span>, Sistemas Web y Ecommerce.
                         </h1>
 
                         <p className="mt-6 text-lg  leading-relaxed">

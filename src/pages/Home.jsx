@@ -6,6 +6,7 @@ import Services from "../components/sections/Services";
 import Portfolio from "../components/sections/Portfolio";
 import Contact from "../components/sections/Contact";
 import WhatsAppButton from "../components/layout/WhatsAppButton";
+import Pricing from "../components/sections/Pricing";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <main>
                 <Hero />
                 <Services />
+                <Pricing />
                 <Portfolio />
                 <Contact />
                 <WhatsAppButton />
